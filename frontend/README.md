@@ -1,16 +1,43 @@
-# React + Vite
+# 🎬 Movie App (MERN Stack)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie App — a place where you can browse movies, heart your favorites, and manage them easily.  
+Right now it’s built with **React** for the frontend, and I’m working on turning it into a full **MERN stack project** with backend, authentication, and database support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 What it does (so far)
+- Browse movies easily  
+- Add or remove your favorite movies ❤️  
+- Favorites are saved in your browser (localStorage)  
+- Smooth navigation with React Router  
+- State management using Context API
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 What’s coming next
+- Node.js + Express backend  
+- MongoDB database to store users & favorites  
+- Signup & login with JWT authentication  
+- Real user-specific favorites  
+- API endpoints for search and user actions  
+- Full MERN deployment
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Frontend:** React, Context API, CSS  
+- **Backend:** Node.js, Express (planned)  
+- **Database:** MongoDB (planned)  
+- **Version Control:** Git + GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+movie-app/
+├── frontend/          # React frontend
+│   ├── src/
+│   ├── package.json
+│   └── ...
+└── backend/           # (coming soon)
